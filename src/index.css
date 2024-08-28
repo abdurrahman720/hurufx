@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#scaleImage span {
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(#0097a7, #000000);
+  border-radius: 100%;
+  filter: blur(140px);
+}
+
+.dot-left {
+  position: absolute;
+  left: -10%;
+  top: -5%;
+  -webkit-animation: leftDot 9s alternate infinite;
+  animation: leftDot 9s alternate infinite;
+}
+
+.dot-right {
+  position: absolute;
+  right: -10%;
+  top: -5%;
+  -webkit-animation: rightDot 9s alternate infinite;
+  animation: rightDot 9s alternate infinite;
+}
+
+.social-icon {
+  background-color: #0096a74c;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 35px;
+}
+
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+/* Media query for small devices */
+@media (max-width: 600px) {
+  .strokeme {
+    text-shadow: -0.5px -0.5px 0 #ffffff, 0.5px -0.5px 0 #ffffff,
+      -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
+  }
+}
+
+@keyframes leftDot {
+  0% {
+    transform: rotate(0) translateX(0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: rotate(360deg) translateX(40%);
+    opacity: 0.7;
+  }
+}
+
+@keyframes rightDot {
+  0% {
+    transform: rotate(0) translateX(0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: rotate(360deg) translateX(-40%);
+    opacity: 0.7;
+  }
+}
