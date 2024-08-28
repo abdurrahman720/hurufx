@@ -41,11 +41,11 @@ const Brands = () => {
       </div>
 
       <div className="-mt-10 mb-20">
-        <Marquee className="text-white text-7xl h-28">
+        <Marquee className="text-white text-4xl md:text-7xl h-10 md:h-28">
           Events & Activation - Brand Guidelines - UXUI - Events & Activation -
           Brand Guidelines - UXUI -
         </Marquee>
-        <Marquee className="text-white text-7xl h-28">
+        <Marquee className="text-white text-4xl md:text-7xl h-10 md:h-28">
           2D & 3D Creatives - Strategic Partnerships - Talent Management - 2D &
           3D Creatives - Strategic Partnerships - Talent Management -
         </Marquee>

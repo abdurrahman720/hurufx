@@ -56,7 +56,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="md:flex">
-        <h1 className="font-normal px-5 md:w-1/2 flex items-center justify-center text-5xl py-20">
+        <h1 className="font-normal px-5 md:w-1/2 flex items-center justify-center text-4xl md:text-5xl py-20">
           OUR <span className="font-semibold ml-3">ECOSYSTEM</span>
         </h1>
         <img

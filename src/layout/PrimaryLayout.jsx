@@ -24,7 +24,7 @@ export const PrimaryLayout = () => {
         <hr className="hidden md:block text-white w-10 rotate-90 mt-24" />
         <Keyhole
           weight="fill"
-          className="text-white text-7xl md:text-5xl mt-8"
+          className="text-white  text-7xl md:text-5xl mt-8"
         />
       </Link>
       <TopNavbar />
