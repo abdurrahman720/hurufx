@@ -6,7 +6,7 @@ import icon3 from "../../assets/hurufx-icons/Strategic-Growth-Planning.png";
 
 const HrufX = () => {
   return (
-    <div className="min-h-screen px-5">
+    <div className="min-h-screen px-5 max-sm:mt-28">
       <div className="max-w-7xl mx-auto">
         <div className="h-[100vh] flex flex-col justify-center">
           <div className="strokeme">
@@ -15,14 +15,14 @@ const HrufX = () => {
             </h1>
           </div>
           <QAA
-            className="text-center w-1/2 mx-auto"
+            className="text-center md:w-1/2 mx-auto"
             title={"What is Business Intelligence?"}
             description={
               "Business Intelligence is the process of using technology to analyze data, transforming it into meaningful information that can inform business decisions. It involves collecting data from various sources, analyzing it, and presenting it in a way that is easy to understand, often through reports, dashboards, and visualizations."
             }
           />
         </div>
-        <div className="md:w-2/3 h-[100vh] md:mx-auto gap-10">
+        <div className="flex flex-col md:w-2/3 h-[100vh] md:mx-auto gap-10">
           <QAA2
             aos="fade-right"
             image={icon1}
@@ -58,9 +58,10 @@ const HrufX = () => {
             }
           />
         </div>
+
+        <img src={bluePrint} alt="blueprint" className="w-1/2 mx-auto my-5" />
+        <Table />
       </div>
-      <img src={bluePrint} alt="blueprint" className="w-1/2 mx-auto" />
-      <Table />
     </div>
   );
 };
@@ -81,7 +82,7 @@ const QAA2 = ({ image, title, description, ...props }) => {
     <div
       // data-aos={aos}
 
-      className="flex-1 flex text-white my-5 gap-20 items-center"
+      className="flex-1 flex text-white my-5 gap-5 md:gap-20 items-center"
     >
       <img className="w-24" src={image} alt={image} />
       <div {...props} className="flex-1 py-6">
