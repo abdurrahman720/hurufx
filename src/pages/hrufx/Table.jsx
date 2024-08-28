@@ -1,10 +1,11 @@
 const Table = () => {
   return (
-    <div data-aos="fade-up" className="my-10 max-w-7xl mx-auto">
-      <div className="flex flex-col">
+    <div data-aos="fade-up" className="my-10 max-w-7xl mx-auto min-w-full">
+      <div className="flex flex-col overflow-scroll w-full">
         <div className="shadow-md sm:rounded-lg">
           <div className="inline-block min-w-full align-middle">
-            <div className="overflow-hidden ">
+            <div className="overflow-x-scroll">
+              {" "}
               <table className="w-full divide-y divide-gray-200 table-auto dark:divide-gray-700 border border-white">
                 <thead className="bg-black">
                   <tr>
@@ -37,7 +38,7 @@ const Table = () => {
                       Data driven
                     </td>
                     <td className="py-4 px-6 text-sm font-medium whitespace-nowrap bg-black text-white border border-white dark:text-white">
-                      Intution
+                      Intuition
                     </td>
                   </tr>
                   <tr className="hover:bg-gray-100 dark:hover:bg-gray-700">

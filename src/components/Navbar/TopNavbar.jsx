@@ -14,7 +14,7 @@ function TopNavbar() {
   };
 
   return (
-    <div className="fixed w-full top-0 z-[999]">
+    <div className="fixed w-full top-0 z-[999] max-sm:bg-black">
       <div className="p-10 flex items-center justify-between">
         <Brand />
         <MenuButton onClick={toggleDrawer} />

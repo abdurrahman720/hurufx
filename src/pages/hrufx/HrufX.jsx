@@ -22,7 +22,7 @@ const HrufX = () => {
             }
           />
         </div>
-        <div className="flex flex-col md:w-2/3 h-[100vh] md:mx-auto gap-10">
+        <div className="flex flex-col md:w-2/3 md:h-[100vh] md:mx-auto gap-10">
           <QAA2
             aos="fade-right"
             image={icon1}
