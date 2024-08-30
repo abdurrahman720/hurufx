@@ -11,7 +11,7 @@ const AboutUs = () => {
           ABOUT <span className="font-thin ml-3">US</span>
         </h1>
         <img
-          className="md:w-1/2 h-[60vh] object-cover"
+          className="w-full md:w-1/2 h-[60vh] object-cover"
           src={oneBuilding}
           alt="image_1"
         />
@@ -60,7 +60,7 @@ const AboutUs = () => {
           OUR <span className="font-semibold ml-3">ECOSYSTEM</span>
         </h1>
         <img
-          className="md:w-1/2 bg-black md:p-20 p-5 h-[60vh] object-scale-down"
+          className="md:w-1/2 bg-black p-5 h-[60vh] object-scale-down"
           src={ecoSystem}
           alt="image_1"
         />

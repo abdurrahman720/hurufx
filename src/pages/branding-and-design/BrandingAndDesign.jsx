@@ -30,13 +30,16 @@ const BrandingAndDesign = () => {
           </div>
           <div className="md:w-2/3">
             <div className="">
-              <h2 className="text-white text-5xl" data-aos="fade-up">
+              <h2
+                className="text-white text-5xl font-extrabold"
+                data-aos="fade-up"
+              >
                 Marketing (m)
               </h2>
               <p
                 data-aos="fade-up"
                 data-aos-duration={500}
-                className="text-white text-2xl my-10"
+                className="text-white text-2xl my-10 text-justify"
               >
                 We build brands that resonate. From logo design and brand
                 development to impactful messaging and eye-catching marketing

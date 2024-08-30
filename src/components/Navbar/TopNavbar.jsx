@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MenuButton from "../Animations/MenuButton/MenuButton";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
@@ -9,12 +9,35 @@ import { Link } from "react-router-dom";
 function TopNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showServices, setShowsServices] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="fixed w-full top-0 z-[999] max-sm:bg-black">
+    <div
+      className={`fixed w-full top-0 z-[999] bg-transparent shadow-none bg-opacity-5 transition-all duration-300 ease-in-out  ${
+        isScrolled
+          ? "max-sm:bg-black max-sm:bg-opacity-80 max-sm:shadow-md "
+          : ""
+      }`}
+    >
       <div className="p-10 flex items-center justify-between">
         <Brand />
         <MenuButton onClick={toggleDrawer} />
@@ -68,8 +91,12 @@ function TopNavbar() {
                     Services
                   </NavItem>
                 </div>
-                <NavItem toggleDrawer={toggleDrawer} href="/hurufx">
-                  HURUFx
+                <NavItem
+                  toggleDrawer={toggleDrawer}
+                  href="/business-intelligence
+"
+                >
+                  Business Intelligence
                 </NavItem>
                 <NavItem
                   toggleDrawer={toggleDrawer}
@@ -80,7 +107,7 @@ function TopNavbar() {
                   TECH (TESS)
                 </NavItem>
                 <NavItem toggleDrawer={toggleDrawer} href="/" darken={true}>
-                  WEB 3.0 (SLON)
+                  WEB 3.0 (SION)
                 </NavItem>
                 <NavItem toggleDrawer={toggleDrawer} href="/contact-us">
                   Contact Us

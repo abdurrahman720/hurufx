@@ -41,7 +41,7 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-40 md:py-0">
+    <div className="max-w-7xl mx-auto py-10 md:py-0 ">
       <div className="lg:flex items-center">
         <div className="text-center">
           <div className="marquee-box">
@@ -52,14 +52,20 @@ const DigitalDevelopment = () => {
             </div>
           </div>
         </div>
-        <div className="p-5 md:w-1/2">
-          <h2 className="text-white text-3xl md:text-5xl" data-aos="fade-up">
+        {/* <div className="globe-animation">
+          <Lottie loop animationData={animation} play />
+        </div> */}
+        <div className="p-5 md:w-1/2 inner-hero-text max-sm:mt-3">
+          <h2
+            className="text-white text-3xl md:text-5xl font-extrabold"
+            data-aos="fade-up"
+          >
             Digital (x)
           </h2>
           <p
             data-aos="fade-up"
             data-aos-duration={500}
-            className="text-white md:text-2xl my-10"
+            className="text-white md:text-2xl my-10 text-justify"
           >
             Create engaging digital experiences with our streamlined approach to
             website design, UX/UI, and custom content. From research to final

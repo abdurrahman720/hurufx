@@ -25,9 +25,10 @@ const HeroSection = () => {
             data-aos="fade-up"
             className="text-white md:text-3xl text-xl font-light leading-snug mb-10"
           >
-            We redefine the digital marketing landscape by blending in-depth
-            strategy understanding with a commitment to ensuring your marketing
-            investments are efficient and impactful.
+            We’re determined to create memorable experiences that resonate
+            deeply with your audience, ensuring your brand stands out. By
+            integrating the latest trends, we keep your brand at the forefront,
+            tailoring our strategies to fit your unique vision and goals.
           </p>
           <Link
             to="/about-us"

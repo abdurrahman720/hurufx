@@ -24,7 +24,7 @@ const UserExperience = () => {
     { src: engagement3, imageName: "MAGNUM MATCHA TAKEOVER" },
     { src: engagement4, imageName: "SUNLIGHT MADE FOR MORE" },
     { src: engagement5, imageName: "SUNSILK SKYLAR" },
-    { src: engagement6, imageName: "TATTO MALAYSIA 2019" },
+    { src: engagement6, imageName: "TATTOO MALAYSIA 2019" },
     { src: engagement7, imageName: "TUNE PROTECT X HALLOWEEN PARTY" },
     { src: engagement8, imageName: "TUNE PROTECT X ZEPPO DANCE SHOWCASE" },
   ];
@@ -35,13 +35,16 @@ const UserExperience = () => {
         <div className="max-w-7xl mx-auto">
           <div className="md:w-2/3">
             <div className="">
-              <h2 className="text-white text-5xl" data-aos="fade-up">
+              <h2
+                className="text-white text-5xl font-extrabold"
+                data-aos="fade-up"
+              >
                 Engagement (e)
               </h2>
               <p
                 data-aos="fade-up"
                 data-aos-duration={500}
-                className="text-white text-2xl my-10"
+                className="text-white text-2xl my-10 text-justify"
               >
                 Engage your audience with unforgettable events, immersive VR/AR,
                 and strategic social media. From talent management to

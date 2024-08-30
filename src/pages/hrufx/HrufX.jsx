@@ -4,7 +4,7 @@ import icon1 from "../../assets/hurufx-icons/Data-Analytics-&-Insights.png";
 import icon2 from "../../assets/hurufx-icons/Marketing-Intelligence.png";
 import icon3 from "../../assets/hurufx-icons/Strategic-Growth-Planning.png";
 
-const HrufX = () => {
+const BusinessIntelligence = () => {
   return (
     <div className="min-h-screen px-5 max-sm:mt-28">
       <div className="max-w-7xl mx-auto">
@@ -22,7 +22,7 @@ const HrufX = () => {
             }
           />
         </div>
-        <div className="flex flex-col md:w-2/3 md:h-[100vh] md:mx-auto gap-10">
+        <div className="flex flex-col md:w-2/3 md:h-[100vh] md:mx-auto gap-5">
           <QAA2
             aos="fade-right"
             image={icon1}
@@ -66,13 +66,13 @@ const HrufX = () => {
   );
 };
 
-export default HrufX;
+export default BusinessIntelligence;
 
 const QAA = ({ title, description, className }) => {
   return (
     <div data-aos="fade-left" className={`text-white my-5 ${className}`}>
       <h2 className="text-white font-medium text-xl md:text-2xl">{title}</h2>
-      <p className="md:text-xl my-5 leading-8">{description}</p>
+      <p className="md:text-xl my-5 leading-8 text-justify">{description}</p>
     </div>
   );
 };
@@ -82,7 +82,7 @@ const QAA2 = ({ image, title, description, ...props }) => {
     <div
       // data-aos={aos}
 
-      className="flex-1 flex text-white my-5 gap-5 md:gap-20 items-center"
+      className="flex-1 flex flex-col md:flex-row text-white my-5 gap-5 md:gap-20 items-center"
     >
       <img className="w-24" src={image} alt={image} />
       <div {...props} className="flex-1 py-6">

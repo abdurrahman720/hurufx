@@ -1,7 +1,7 @@
 const Table = () => {
   return (
     <div data-aos="fade-up" className="my-10 max-w-7xl mx-auto min-w-full">
-      <div className="flex flex-col overflow-scroll w-full">
+      <div className="flex flex-col overflow-auto w-full">
         <div className="shadow-md sm:rounded-lg">
           <div className="inline-block min-w-full align-middle">
             <div className="overflow-x-scroll">

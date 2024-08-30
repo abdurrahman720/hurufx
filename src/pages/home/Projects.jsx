@@ -54,9 +54,9 @@ const ProjectContainer = ({
       <div
         className={`${
           reverse && "flex-row-reverse md:pl-32 md:pr-0"
-        } md:flex flex-row items-center pr-5 py-5 md:pl-0 md:py-32 gap-10`}
+        } md:flex flex-row items-center md:pr-5 py-5 md:pl-0 md:py-32 gap-10`}
       >
-        <img src={imageUrl} alt="" className="md:w-1/2" />
+        <img src={imageUrl} alt="" className="w-full md:w-1/2" />
         <div className="p-5 md:p-0 flex items-center md:justify-center md:w-1/2">
           <div>
             <p

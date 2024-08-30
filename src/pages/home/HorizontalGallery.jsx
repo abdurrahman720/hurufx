@@ -27,7 +27,7 @@ const HorizontalGallery = () => {
   const translateX1 = useTransform(scrollYProgress, [0, 3], ["8.5%", "-100%"]);
   const translateX2 = useTransform(scrollYProgress, [0, 3], ["-8.5%", "100%"]);
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.5]);
+  // const scale = useTransform(scrollYProgress, [0, 1], [1, 1.5]);
 
   // Adjust margin based on scroll
   const marginBottom1 = useTransform(
@@ -39,7 +39,7 @@ const HorizontalGallery = () => {
   return (
     <section className="flex flex-col lg:gap-4 py-20">
       <motion.div
-        style={{ translateX: translateX1, marginBottom: marginBottom1, scale }}
+        style={{ translateX: translateX1, marginBottom: marginBottom1 }} //Removed scale
         className="flex gap-4"
       >
         <ProjectImage src={image1} />
@@ -47,7 +47,7 @@ const HorizontalGallery = () => {
         <ProjectImage src={image3} />
       </motion.div>
       <motion.div
-        style={{ translateX: translateX2, scale }}
+        style={{ translateX: translateX2 }} //Removed scale
         className="flex gap-4"
       >
         <ProjectImage src={image4} />

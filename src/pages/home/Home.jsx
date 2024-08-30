@@ -14,7 +14,7 @@ const Home = () => {
       <div className="z-50">
         <HeroSection />
         <HorizontalGallery />
-        <VideoSection />s
+        <VideoSection />
         <Projects />
         <Brands />
         <GetInTouch />
