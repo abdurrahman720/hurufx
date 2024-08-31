@@ -77,11 +77,10 @@ const QAA = ({ title, description, className }) => {
   );
 };
 
-const QAA2 = ({ image, title, description, ...props }) => {
+const QAA2 = ({ image, title, description, aos, ...props }) => {
   return (
     <div
-      // data-aos={aos}
-
+      data-aos={aos}
       className="flex-1 flex flex-col md:flex-row text-white my-5 gap-5 md:gap-20 items-center"
     >
       <img className="w-24" src={image} alt={image} />

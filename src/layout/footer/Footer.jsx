@@ -21,7 +21,7 @@ const Footer = () => {
           ALL RIGHTS RESERVED © 2024. HURUF SDN BHD
         </p>
       </div>
-      <div className="h-52 w-52 rounded-br-2xl bg-footerCard md:my-0 md:mt-2 my-10 lg:mx-0 mx-auto">
+      <div className="h-52 w-52 rounded-br-2xl bg-footerCard lg:mx-0 mx-auto md:mt-2 text-white/80">
         <div className="absolute flex flex-col items-center justify-center bg-dark h-52 w-52 rounded-2xl -mt-3 -ml-4">
           <Medal className="text-5xl text-white/70" />
           <div className="flex flex-col">
