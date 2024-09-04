@@ -41,8 +41,8 @@ const AboutUs = () => {
           alt="image_1"
         />
       </div>
-      <div className="bg-black flex items-center justify-center p-5 md:py-40">
-        <p className="md:text-lg text-white max-w-4xl text-justify mx-auto">
+      <div className="bg-black flex items-center justify-center py-5 md:py-40 px-5 ">
+        <p className="md:text-lg text-white max-w-4xl text-justify !mx-auto px-5">
           At <b>HURUF</b>, we redefine the digital marketing landscape by
           blending in-depth strategy understanding with a commitment to ensuring
           your marketing investments are <b>efficient</b> and
@@ -65,7 +65,7 @@ const AboutUs = () => {
           alt="image_1"
         />
       </div>
-      <div className="bg-black flex items-center justify-center py-5 md:py-40">
+      <div className="bg-black flex items-center justify-center py-5 md:py-40 px-5">
         <p className="font-normal md:text-lg text-white max-w-4xl text-justify mx-auto">
           At <b>HURUF</b>, we champion the power of collaboration within an{" "}
           <b>expansive ecosystem</b>. Our journey is marked by successful

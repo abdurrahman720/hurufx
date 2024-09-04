@@ -50,6 +50,21 @@ const UserExperience = () => {
                 and strategic social media. From talent management to
                 interactive media and PR, we craft experiences that resonate.
               </p>
+              <ul
+                data-aos="fade-up"
+                data-aos-duration={500}
+                className="text-white text-2xl my-10 text-justify list-disc p-5"
+              >
+                <li>Events and Activations</li>
+                <li>Talent Management</li>
+                <li>Production</li>
+                <li>User Experience</li>
+
+                <li>Social Media Strategy</li>
+                <li>Interactive Media</li>
+                <li>VR/AR Experiences</li>
+                <li>Public Relations</li>
+              </ul>
               <div className="group/item flex items-center cursor-pointer w-fit">
                 <div className="w-10 h-10 bg-white rounded-full group-hover/item:w-52 transition-all duration-500"></div>
                 <hr className="group-hover/item:opacity-0 opacity-100 transition-all duration-500 border-white w-10" />

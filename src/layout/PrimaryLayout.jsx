@@ -18,10 +18,8 @@ export const PrimaryLayout = () => {
         to="/contact-us"
         className="z-20 flex flex-col items-center fixed bottom-5 md:bottom-20 right-0"
       >
-        <p className="hidden md:block text-white -rotate-90 text-base">
-          Contact Us Now
-        </p>
-        <hr className="hidden md:block text-white w-10 rotate-90 mt-24" />
+        <p className=" text-white -rotate-90 text-base">Contact Us Now</p>
+        <hr className=" text-white w-10 rotate-90 mt-24" />
         <Keyhole
           weight="fill"
           className="text-white  text-7xl md:text-5xl mt-8"

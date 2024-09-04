@@ -7,7 +7,8 @@ import UserExperience from "../pages/user-exp/UserExperience";
 
 import ContactUs from "../pages/contact/Contact";
 import AboutUs from "../pages/about-us/AboutUs";
-import BusinessIntelligence from "../pages/hrufx/HrufX";
+import BusinessIntelligence from "../pages/hrufx/BusinessIntelligence";
+
 
 export const router = createBrowserRouter([
   {
@@ -16,8 +17,8 @@ export const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/digital-development", element: <DigitalDevelopment /> },
-      { path: "/branding-and-design", element: <BrandingAndDesign /> },
-      { path: "/user-experience", element: <UserExperience /> },
+      { path: "/marketing", element: <BrandingAndDesign /> },
+      { path: "/engagement", element: <UserExperience /> },
       { path: "/business-intelligence", element: <BusinessIntelligence /> },
       { path: "/contact-us", element: <ContactUs /> },
       { path: "/about-us", element: <AboutUs /> },

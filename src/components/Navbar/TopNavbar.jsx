@@ -62,19 +62,13 @@ function TopNavbar() {
                   <ArrowLeft />
                   Services
                 </div>
-                <NavItem
-                  toggleDrawer={toggleDrawer}
-                  href="/branding-and-design"
-                >
+                <NavItem toggleDrawer={toggleDrawer} href="/marketing">
                   Marketing (m)
                 </NavItem>
-                <NavItem
-                  toggleDrawer={toggleDrawer}
-                  href="/digital-development"
-                >
+                <NavItem toggleDrawer={toggleDrawer} href="digital-development">
                   Digital (x)
                 </NavItem>
-                <NavItem toggleDrawer={toggleDrawer} href="/user-experience">
+                <NavItem toggleDrawer={toggleDrawer} href="/engagement">
                   Engagement (e)
                 </NavItem>
               </ul>
@@ -129,7 +123,7 @@ export default TopNavbar;
 
 const NavItem = ({ children, href, toggleDrawer, ...props }) => (
   <li
-    className={`flex items-center group/item strokeme my-2 md:my-4 text-xl md:text-4xl text md:font-bold hover:ml-8 hover:md:ml-16 transition-all duration-500`}
+    className={`flex items-center group/item strokeme my-2 md:my-4 text-2xl md:text-4xl text md:font-bold hover:ml-8 hover:md:ml-16 transition-all duration-500`}
   >
     <hr className="bg-white w-5 md:w-10 group-hover/item:opacity-100 opacity-0 mr-3 md:mr-6" />
     {href === "#services" ? (

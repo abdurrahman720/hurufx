@@ -13,7 +13,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const ProjectImage = ({ src }) => {
   return (
     <img
-      className="w-40 md:w-full h-32 md:h-96 object-cover"
+      className="w-40 md:w-full h-32 md:h-96 object-contain"
       src={src}
       alt="project_image"
     />

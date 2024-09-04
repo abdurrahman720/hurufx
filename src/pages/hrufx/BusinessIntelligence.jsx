@@ -22,14 +22,15 @@ const BusinessIntelligence = () => {
             }
           />
         </div>
-        <div className="flex flex-col md:w-2/3 md:h-[100vh] md:mx-auto gap-5">
+        <div className="flex flex-col md:w-2/3 md:h-[100vh] md:mx-auto gap-5 md:gap-10">
           <QAA2
             aos="fade-right"
             image={icon1}
             title={"Data Analytics & Insights"}
-            style={{
-              borderTop: "1px solid white",
-            }}
+            // style={{
+            //   borderTop: "1px solid white",
+            // }}
+            extraClassName="border-t border-white"
             description={
               "We analyze your data to reveal crucial insights about your business operations, customer behavior, and market trends. Our goal is to provide you with a clear understanding of where you stand and where you can go."
             }
@@ -38,10 +39,7 @@ const BusinessIntelligence = () => {
             aos="fade-up"
             image={icon2}
             title={"Marketing Intelligence"}
-            style={{
-              borderTop: "1px solid white",
-              borderBottom: "1px solid white",
-            }}
+            extraClassName="border-t md:border-y border-white"
             description={
               "Utilizing BI tools, we refine your marketing efforts to ensure they are as effective as possible. Whether through Above the Line (ATL), Below the Line (BTL), or Through the Line (TTL) marketing strategies, we help you reach your target audience with precision and creativity"
             }
@@ -50,16 +48,14 @@ const BusinessIntelligence = () => {
             aos="fade-left"
             image={icon3}
             title={"Strategic Growth Planning"}
-            style={{
-              borderBottom: "1px solid white",
-            }}
+            extraClassName="border-y border-white"
             description={
               "With our insights, your business can plan for the future more confidently. We identify opportunities for growth and areas for improvement, guiding you towards strategic decisions that enhance your competitive edge. "
             }
           />
         </div>
 
-        <img src={bluePrint} alt="blueprint" className="w-1/2 mx-auto my-5" />
+        <img src={bluePrint} alt="blueprint" className="w-3/4 mx-auto my-5" />
         <Table />
       </div>
     </div>
@@ -77,14 +73,14 @@ const QAA = ({ title, description, className }) => {
   );
 };
 
-const QAA2 = ({ image, title, description, aos, ...props }) => {
+const QAA2 = ({ image, title, description, aos, extraClassName }) => {
   return (
     <div
       data-aos={aos}
       className="flex-1 flex flex-col md:flex-row text-white my-5 gap-5 md:gap-20 items-center"
     >
       <img className="w-24" src={image} alt={image} />
-      <div {...props} className="flex-1 py-6">
+      <div className={`flex-1 py-6 ${extraClassName}`}>
         <h2 className="text-white font-medium text-xl md:text-2xl">{title}</h2>
         <p className="md:text-lg text-white/80 leading-8 text-justify">
           {description}

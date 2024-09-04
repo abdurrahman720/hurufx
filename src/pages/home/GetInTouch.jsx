@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const GetInTouch = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -29,7 +30,9 @@ const GetInTouch = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <span className="cursor-pointer w-fit">Get in Touch</span>
+          <Link to={"/contact-us"} className="cursor-pointer w-fit">
+            Get in Touch
+          </Link>
         </p>
       </div>
     </div>

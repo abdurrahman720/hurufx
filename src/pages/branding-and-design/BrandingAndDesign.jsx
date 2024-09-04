@@ -46,6 +46,20 @@ const BrandingAndDesign = () => {
                 collateral, we create a cohesive visual identity that makes your
                 brand unforgettable.
               </p>
+              <ul
+                data-aos="fade-up"
+                data-aos-duration={500}
+                className="text-white text-2xl my-10 text-justify list-disc p-5"
+              >
+                <li>Brand Development</li>
+                <li>Logo & ID</li>
+                <li>Brand Style Guides</li>
+                <li>Messaging</li>
+
+                <li>Collateral, Print & Packaging</li>
+                <li>Environmental Design</li>
+                <li>Creative Strategy</li>
+              </ul>
               <div className="group/item flex items-center cursor-pointer w-fit">
                 <div className="w-10 h-10 bg-white rounded-full group-hover/item:w-52 transition-all duration-500"></div>
                 <hr className="group-hover/item:opacity-0 opacity-100 transition-all duration-500 border-white w-10" />
@@ -62,13 +76,13 @@ const BrandingAndDesign = () => {
       </div>
       <div
         id="bad-images"
-        className="max-w-7xl mx-auto px-5 flex flex-col gap-10 my-40"
+        className="max-w-7xl mx-auto flex flex-col gap-10 my-40"
       >
         {images.map((image, index) => {
           return (
             <div className="relative cursor-pointer group" key={index}>
               <img
-                className="w-full"
+                className="w-full object-contain"
                 data-aos="fade-up"
                 src={image.src}
                 alt={`image-${index}`}

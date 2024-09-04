@@ -10,7 +10,7 @@ const Projects = () => {
         <ProjectContainer
           projectName={"BRAND GUIDELINES"}
           category={"Marketing (m)"}
-          link="/branding-and-design"
+          link="/marketing"
           imageUrl={brandAndDesign}
           width="group-hover/item:w-48"
           ml="group-hover/item:-ml-[10rem] group-hover/item:md:-ml-44"
@@ -28,7 +28,7 @@ const Projects = () => {
         <ProjectContainer
           projectName={"TATTOO MALAYSIA EXPO 2021"}
           category={"Engagement (e)"}
-          link="/user-experience"
+          link="/engagement"
           imageUrl={tattoMalaysia}
           width="group-hover/item:w-52"
           ml="group-hover/item:-ml-[11.5rem] group-hover/item:md:-ml-48"

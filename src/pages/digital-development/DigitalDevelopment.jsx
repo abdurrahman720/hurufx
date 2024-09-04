@@ -41,7 +41,7 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10 md:py-0 ">
+    <div className="max-w-7xl mx-auto py-10 md:py-0 inner-hero-banner ">
       <div className="lg:flex items-center">
         <div className="text-center">
           <div className="marquee-box">
@@ -55,7 +55,7 @@ const DigitalDevelopment = () => {
         {/* <div className="globe-animation">
           <Lottie loop animationData={animation} play />
         </div> */}
-        <div className="p-5 md:w-1/2 inner-hero-text max-sm:mt-3">
+        <div className="p-5 md:w-1/2  max-sm:mt-3 ">
           <h2
             className="text-white text-3xl md:text-5xl font-extrabold"
             data-aos="fade-up"
@@ -71,11 +71,27 @@ const DigitalDevelopment = () => {
             website design, UX/UI, and custom content. From research to final
             animations, we deliver everything you need to stand out online.
           </p>
+          <ul
+            data-aos="fade-up"
+            data-aos-duration={500}
+            className="text-white text-2xl my-10 text-justify list-disc p-5"
+          >
+            <li>Website Design</li>
+            <li>UX/UI</li>
+            <li>Information Architecture</li>
+            <li>Wireframing</li>
+
+            <li>Prototypes</li>
+            <li>Custom Content</li>
+            <li>Discovery & Research</li>
+            <li>Digital Marketing (Turnkey)</li>
+            <li>Graphics and Animations</li>
+          </ul>
           <div className="group/item flex items-center cursor-pointer w-fit">
             <div className="w-10 h-10 bg-white rounded-full group-hover/item:w-52 transition-all duration-500"></div>
             <hr className="group-hover/item:opacity-0 opacity-100 transition-all duration-500 border-white w-10" />
             <a
-              href="#dd-images"
+              href="#digital"
               className="group-hover/item:-ml-[200px] group-hover/item:text-black text-white font-medium transition-all duration-500 ml-5"
             >
               View Our Work
@@ -83,7 +99,7 @@ const DigitalDevelopment = () => {
           </div>
         </div>
       </div>
-      <div id="dd-images" className="flex flex-col gap-5 md:gap-20 my-40">
+      <div id="digital" className="flex flex-col gap-5 md:gap-20 my-40">
         {images.map((image, index) => {
           return (
             <div className="relative cursor-pointer group" key={index}>
