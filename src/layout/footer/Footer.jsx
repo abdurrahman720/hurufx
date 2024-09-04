@@ -12,7 +12,7 @@ const Footer = () => {
         <p className="font-semibold text-white mt-5 md:w-2/3">
           Empowering Your Brand Through Creativity and Innovation!
         </p>
-        <p className="text-base text-white/80 md:w-2/3 ">
+        <p className=" text-white/80 md:w-2/3 ">
           Partner with us to bring your vision to life with impactful strategies
           and memorable experiences. Our team is ready to support your growth
           and drive success in a dynamic marketplace.
@@ -42,7 +42,7 @@ const Footer = () => {
             <a href="mailto:mahathir@huruf.gg" className="text-sm flex gap-1">
               x: mahathir@huruf.gg
             </a>
-            <a href="mailto:mahathir@huruf.gg" className="text-sm flex gap-1">
+            <a href="mailto:elaine@huruf.gg" className="text-sm flex gap-1">
               elaine@huruf.gg
             </a>
           </div>

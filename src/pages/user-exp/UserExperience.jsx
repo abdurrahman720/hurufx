@@ -81,7 +81,7 @@ const UserExperience = () => {
       </div>
       <div
         id="ux-images"
-        className="max-w-7xl mx-auto px-5 flex flex-col gap-10 my-40"
+        className="max-w-7xl mx-auto md:px-5 flex flex-col gap-10 my-40"
       >
         {images.map((image, index) => {
           return (

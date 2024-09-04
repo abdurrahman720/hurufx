@@ -19,8 +19,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="relative text-left lg:w-1/2 mx-auto mb-40 md:mb-96 px-5">
-        <div>
+      <div className="relative  text-justify lg:w-1/2 mx-auto mb-40 md:mb-96 px-5">
+        <div className="flex flex-col justify-center items-center">
           <p
             data-aos="fade-up"
             className="text-white md:text-3xl text-xl font-light leading-snug mb-10"
@@ -35,7 +35,8 @@ const HeroSection = () => {
             data-aos="fade-up"
             className="text-white text-xl"
           >
-            <span className="border-b border-b-primary">About</span> us
+            <span className="border-b border-b-primary text-center">About</span>{" "}
+            us
           </Link>
         </div>
       </div>

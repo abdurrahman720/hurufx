@@ -41,7 +41,7 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10 md:py-0 inner-hero-banner ">
+    <div className="max-w-7xl mx-auto py-10 md:py-0 inner-hero-text ">
       <div className="lg:flex items-center">
         <div className="text-center">
           <div className="marquee-box">
@@ -99,7 +99,7 @@ const DigitalDevelopment = () => {
           </div>
         </div>
       </div>
-      <div id="digital" className="flex flex-col gap-5 md:gap-20 my-40">
+      <div id="digital" className="flex flex-col gap-5 md:gap-20 my-40 md:px-5">
         {images.map((image, index) => {
           return (
             <div className="relative cursor-pointer group" key={index}>

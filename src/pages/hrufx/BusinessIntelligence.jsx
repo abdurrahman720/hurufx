@@ -27,10 +27,7 @@ const BusinessIntelligence = () => {
             aos="fade-right"
             image={icon1}
             title={"Data Analytics & Insights"}
-            // style={{
-            //   borderTop: "1px solid white",
-            // }}
-            extraClassName="border-t border-white"
+            extraClassName="border-y border-white"
             description={
               "We analyze your data to reveal crucial insights about your business operations, customer behavior, and market trends. Our goal is to provide you with a clear understanding of where you stand and where you can go."
             }
@@ -39,7 +36,7 @@ const BusinessIntelligence = () => {
             aos="fade-up"
             image={icon2}
             title={"Marketing Intelligence"}
-            extraClassName="border-t md:border-y border-white"
+            extraClassName="border-y border-white"
             description={
               "Utilizing BI tools, we refine your marketing efforts to ensure they are as effective as possible. Whether through Above the Line (ATL), Below the Line (BTL), or Through the Line (TTL) marketing strategies, we help you reach your target audience with precision and creativity"
             }

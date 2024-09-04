@@ -78,7 +78,7 @@
 
 .inner-hero-text {
   width: 100%;
-  /* height: 100vh; */
+  /* height: 100%; */
   background: linear-gradient(-45deg, #0097a7, #000, #0097a7, #000);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;

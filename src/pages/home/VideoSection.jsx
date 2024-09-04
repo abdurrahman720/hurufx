@@ -9,9 +9,9 @@ const VideoSection = () => {
 
   return (
     <div className="flex md:flex-row flex-col gap-5 md:pl-20 md:py-20 py-5">
-      <div className="text-white flex-1 flex items-center pl-5 lg:pl-20">
-        <div>
-          <h1 className="text-5xl md:text-[56px]">Production</h1>
+      <div className="text-white flex-1  items-center pl-5 lg:pl-20 hidden md:flex">
+        <div className="">
+          <h1 className="text-5xl  md:text-[56px]">Production</h1>
           <AnimatedButton title={"Engagement (e)"} />
         </div>
       </div>
@@ -47,6 +47,13 @@ const VideoSection = () => {
           </div>
         </Modal>
       )}
+
+      <div className="text-white flex-1  items-center pl-5 lg:pl-20 flex md:hidden">
+        <div className="">
+          <h1 className="text-5xl  md:text-[56px]">Production</h1>
+          <AnimatedButton title={"Engagement (e)"} />
+        </div>
+      </div>
 
       {/* <img
           className="w-10 md:w-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"

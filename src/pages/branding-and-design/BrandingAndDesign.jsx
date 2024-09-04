@@ -23,7 +23,7 @@ const BrandingAndDesign = () => {
   ];
   return (
     <>
-      <div className="inner-hero-banner px-5 min-h-[100vh] flex items-center md:px-20">
+      <div className="inner-hero-banner px-5 min-h-[100vh] flex items-center md:px-5">
         <div className="max-w-7xl mx-auto">
           <div className="globe-animation">
             <Lottie loop animationData={animation} play />
@@ -76,7 +76,7 @@ const BrandingAndDesign = () => {
       </div>
       <div
         id="bad-images"
-        className="max-w-7xl mx-auto flex flex-col gap-10 my-40"
+        className="max-w-7xl mx-auto flex flex-col gap-10 my-40 md:px-5"
       >
         {images.map((image, index) => {
           return (
