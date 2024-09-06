@@ -41,10 +41,10 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10 md:py-0 inner-hero-text ">
-      <div className="lg:flex items-center">
+    <div className="max-w-7xl mx-auto  ">
+      <div className="lg:flex items-center inner-hero-text">
         <div className="text-center">
-          <div className="marquee-box">
+          <div className="marquee-box max-md:pt-20">
             <div className="marquee-box-inner">
               {imageUrlList.map((url, index) => (
                 <ImageComponent key={index} imageUrl={url} />

@@ -43,7 +43,7 @@ const Footer = () => {
               x: mahathir@huruf.gg
             </a>
             <a href="mailto:elaine@huruf.gg" className="text-sm flex gap-1">
-              elaine@huruf.gg
+              e:elaine@huruf.gg
             </a>
           </div>
         </div>

@@ -32,7 +32,7 @@ const UserExperience = () => {
   return (
     <>
       <div className="inner-hero-banner px-5 min-h-[100vh] flex items-center md:px-20">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto max-md:mt-20">
           <div className="md:w-2/3">
             <div className="">
               <h2

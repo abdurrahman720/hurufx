@@ -10,7 +10,7 @@ import branding6 from "../../assets/branding-and-design/MOODBOARD.png";
 import branding7 from "../../assets/branding-and-design/PRODUCT-SHOWCASE.png";
 import branding8 from "../../assets/branding-and-design/TYPOGRAPHY.png";
 
-const BrandingAndDesign = () => {
+const Marketing = () => {
   const images = [
     { src: branding1, imageName: "BRANDING" },
     { src: branding2, imageName: "COLOUR VARIATIONS" },
@@ -29,7 +29,7 @@ const BrandingAndDesign = () => {
             <Lottie loop animationData={animation} play />
           </div>
           <div className="md:w-2/3">
-            <div className="">
+            <div className="max-md:mt-20">
               <h2
                 className="text-white text-5xl font-extrabold"
                 data-aos="fade-up"
@@ -99,4 +99,4 @@ const BrandingAndDesign = () => {
   );
 };
 
-export default BrandingAndDesign;
+export default Marketing;

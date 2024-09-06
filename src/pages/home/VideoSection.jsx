@@ -19,7 +19,7 @@ const VideoSection = () => {
         <video width="100%" height="auto" autoPlay loop muted playsInline>
           <source src={magnumVideo1} type="video/mp4" />
         </video>
-        <div className="bg-black/50 absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+        {/* <div className="bg-black/50 absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div> */}
       </div>
       {isOpen && (
         <Modal isOpen={isOpen} setIsOpen={setIsopen}>
@@ -35,7 +35,7 @@ const VideoSection = () => {
             >
               <source src={magnumVideo1} type="video/mp4" />
             </video>
-            <div className="bg-black/60 absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+            {/* <div className="bg-black/60 absolute w-full h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div> */}
             <button
               onClick={() => {
                 setIsopen(false);

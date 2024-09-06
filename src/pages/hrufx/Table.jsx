@@ -4,7 +4,7 @@ const Table = () => {
       <div className="flex flex-col max-md:overflow-auto md:overflow-hidden w-full">
         <div className="shadow-md sm:rounded-lg">
           <div className="inline-block min-w-full align-middle">
-            <div className="overflow-x-scroll">
+            <div className="overflow-x-auto ">
               {" "}
               <table className="w-full divide-y divide-gray-200 table-auto dark:divide-gray-700 border border-white">
                 <thead className="bg-black">
