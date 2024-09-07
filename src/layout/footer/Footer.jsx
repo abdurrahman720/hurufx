@@ -6,17 +6,19 @@ import { Envelope, Medal } from "@phosphor-icons/react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl text-2xl gap-10 mx-auto text-white md:flex justify-between px-5 py-10 md:px-10 md:py-20">
-      <div className="flex-1 md:w-2/3 text-justify">
+    <footer className="max-w-7xl text-2xl gap-10  mx-auto text-white md:flex justify-between items-center px-5 py-10 md:px-10 md:py-20">
+      <div className="flex-1 md:w-2/3 text-justify md:mr-10">
         <Brand textSize="text-5xl text-white" width="w-40" />
-        <p className="font-semibold text-white mt-5 md:w-2/3">
+        <p className="font-semibold text-white mt-5 md:w-full">
           Empowering Your Brand Through Creativity and Innovation!
+          <br />
+          <span className="text-white/80 ">
+            Partner with us to bring your vision to life with impactful
+            strategies and memorable experiences. Our team is ready to support
+            your growth and drive success in a dynamic marketplace.
+          </span>
         </p>
-        <p className=" text-white/80 md:w-2/3 ">
-          Partner with us to bring your vision to life with impactful strategies
-          and memorable experiences. Our team is ready to support your growth
-          and drive success in a dynamic marketplace.
-        </p>
+        {/* <p className="  md:w-full "></p> */}
         <p className="text-white/80 text-sm mt-10">
           ALL RIGHTS RESERVED © 2024. HURUF SDN BHD
         </p>

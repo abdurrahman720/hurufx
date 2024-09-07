@@ -36,7 +36,7 @@ const UserExperience = () => {
           <div className="md:w-2/3">
             <div className="">
               <h2
-                className="text-white text-5xl font-extrabold"
+                className="text-white text-3xl md:text-5xl font-extrabold"
                 data-aos="fade-up"
               >
                 Engagement (e)

@@ -31,7 +31,7 @@ const Marketing = () => {
           <div className="md:w-2/3">
             <div className="max-md:mt-20">
               <h2
-                className="text-white text-5xl font-extrabold"
+                className="text-white text-3xl md:text-5xl font-extrabold"
                 data-aos="fade-up"
               >
                 Marketing (m)
