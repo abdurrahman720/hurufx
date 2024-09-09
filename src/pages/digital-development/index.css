@@ -47,9 +47,10 @@
     animation-iteration-count: infinite;
     animation-play-state: running;
     display: flex;
-    animation-duration: 5s;
+    animation-duration: 10s;
     align-items: center;
     justify-content: center;
+    width: calc(100% * 4);
   }
 }
 
@@ -75,7 +76,7 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-270vw);
+    transform: translateX(-80%);
   }
 }
 
