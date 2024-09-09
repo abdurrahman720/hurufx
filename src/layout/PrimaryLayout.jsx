@@ -30,29 +30,31 @@ export const PrimaryLayout = () => {
         />
       </Link>
 
-      <Link
-        to="/contact-us"
-        className={`z-20 flex flex-col items-center fixed bottom-5  right-0 opacity-0 transition-opacity duration-300 ease-in-out md:hidden ${
+      <div
+        className={`z-20 flex flex-col items-center fixed bottom-0 xs:bottom-10  right-0 opacity-0 transition-opacity duration-300 ease-in-out md:hidden xs:mb-8 ${
           arrowClicked ? "opacity-100" : ""
         }  `}
       >
         <Social />
-        <p
-          className={` text-white -rotate-90 text-base opacity-0 transition-opacity duration-300 ease-in-out mt-24 ${
+        <Link
+          to="/contact-us"
+          className={` text-white -rotate-90 text-base opacity-0 transition-opacity duration-300 ease-in-out mt-16 xs:mt-24 ${
             arrowClicked ? "opacity-100" : ""
           }`}
         >
           Contact Us Now
-        </p>
-        <hr className={` text-white w-10 rotate-90 mt-24`} />
-        <Keyhole
-          weight="fill"
-          className={`text-white  text-7xl md:text-5xl mt-8`}
-        />
-      </Link>
+        </Link>
+        <hr className={` text-white w-10 rotate-90 mt-20 xs:mt-24`} />
+        <button onClick={() => setArrowClicked(false)} className="mt-8">
+          <Keyhole
+            weight="fill"
+            className={`text-white  text-7xl md:text-5xl  z-30`}
+          />
+        </button>
+      </div>
 
       <div
-        className={`z-20 flex flex-col items-center fixed bottom-10 md:bottom-20 right-5 ${
+        className={`z-20 flex flex-col items-center fixed bottom-0 xs:bottom-10 md:bottom-20 right-5 ${
           arrowClicked ? "opacity-0" : "opacity-100"
         }`}
       >

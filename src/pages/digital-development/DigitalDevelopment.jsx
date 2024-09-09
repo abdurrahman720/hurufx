@@ -41,7 +41,7 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto  ">
+    <div className="mx-auto">
       <div className="lg:flex items-center inner-hero-text">
         <div className="text-center">
           <div className="marquee-box max-md:pt-20">

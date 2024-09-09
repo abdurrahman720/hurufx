@@ -38,7 +38,7 @@ function TopNavbar() {
           : ""
       }`}
     >
-      <div className="p-10 flex items-center justify-between">
+      <div className="p-5 xs:p-10 flex items-center justify-between">
         <Brand />
         <MenuButton onClick={toggleDrawer} />
       </div>

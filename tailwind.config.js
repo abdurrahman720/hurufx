@@ -9,6 +9,9 @@ export default {
         dark: "#161616",
         footerCard: "#d7d7d7",
       },
+      screens: {
+        xs: "380px",
+      },
     },
   },
   plugins: [],
