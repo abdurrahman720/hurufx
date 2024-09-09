@@ -43,6 +43,9 @@
   .marquee-box .marquee-box-inner {
     transform: translateX(0%) translateY(0%);
     animation-name: marqueeImgHorizontal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
     display: flex;
     animation-duration: 5s;
     align-items: center;

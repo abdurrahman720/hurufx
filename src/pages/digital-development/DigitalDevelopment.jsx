@@ -41,65 +41,71 @@ const DigitalDevelopment = () => {
   ];
 
   return (
-    <div className="mx-auto">
-      <div className="lg:flex items-center inner-hero-text">
-        <div className="text-center">
-          <div className="marquee-box max-md:pt-20">
-            <div className="marquee-box-inner">
-              {imageUrlList.map((url, index) => (
-                <ImageComponent key={index} imageUrl={url} />
-              ))}
+    <>
+      <div className="inner-hero-banner px-5 min-h-[100vh]  md:px-5 ">
+        <div className="lg:flex items-center max-w-7xl mx-auto">
+          <div className="text-center">
+            <div className="marquee-box max-md:pt-20">
+              <div className="marquee-box-inner">
+                {imageUrlList.map((url, index) => (
+                  <ImageComponent key={index} imageUrl={url} />
+                ))}
+              </div>
+            </div>
+          </div>
+          {/* <div className="globe-animation">
+          <Lottie loop animationData={animation} play />
+        </div> */}
+          <div className="p-5 md:w-1/2  max-sm:mt-3 ">
+            <h2
+              className="text-white text-3xl md:text-5xl font-extrabold"
+              data-aos="fade-up"
+            >
+              Digital (x)
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-duration={500}
+              className="text-white text-2xl my-10 text-justify"
+            >
+              Create engaging digital experiences with our streamlined approach
+              to website design, UX/UI, and custom content. From research to
+              final animations, we deliver everything you need to stand out
+              online.
+            </p>
+            <ul
+              data-aos="fade-up"
+              data-aos-duration={500}
+              className="text-white text-2xl my-10 text-justify list-disc p-5"
+            >
+              <li>Website Design</li>
+              <li>UX/UI</li>
+              <li>Information Architecture</li>
+              <li>Wireframing</li>
+
+              <li>Prototypes</li>
+              <li>Custom Content</li>
+              <li>Discovery & Research</li>
+              <li>Digital Marketing (Turnkey)</li>
+              <li>Graphics and Animations</li>
+            </ul>
+            <div className="group/item flex items-center cursor-pointer w-fit">
+              <div className="w-10 h-10 bg-white rounded-full group-hover/item:w-52 transition-all duration-500"></div>
+              <hr className="group-hover/item:opacity-0 opacity-100 transition-all duration-500 border-white w-10" />
+              <a
+                href="#digital"
+                className="group-hover/item:-ml-[200px] group-hover/item:text-black text-white font-medium transition-all duration-500 ml-5"
+              >
+                View Our Work
+              </a>
             </div>
           </div>
         </div>
-        {/* <div className="globe-animation">
-          <Lottie loop animationData={animation} play />
-        </div> */}
-        <div className="p-5 md:w-1/2  max-sm:mt-3 ">
-          <h2
-            className="text-white text-3xl md:text-5xl font-extrabold"
-            data-aos="fade-up"
-          >
-            Digital (x)
-          </h2>
-          <p
-            data-aos="fade-up"
-            data-aos-duration={500}
-            className="text-white md:text-2xl my-10 text-justify"
-          >
-            Create engaging digital experiences with our streamlined approach to
-            website design, UX/UI, and custom content. From research to final
-            animations, we deliver everything you need to stand out online.
-          </p>
-          <ul
-            data-aos="fade-up"
-            data-aos-duration={500}
-            className="text-white text-2xl my-10 text-justify list-disc p-5"
-          >
-            <li>Website Design</li>
-            <li>UX/UI</li>
-            <li>Information Architecture</li>
-            <li>Wireframing</li>
-
-            <li>Prototypes</li>
-            <li>Custom Content</li>
-            <li>Discovery & Research</li>
-            <li>Digital Marketing (Turnkey)</li>
-            <li>Graphics and Animations</li>
-          </ul>
-          <div className="group/item flex items-center cursor-pointer w-fit">
-            <div className="w-10 h-10 bg-white rounded-full group-hover/item:w-52 transition-all duration-500"></div>
-            <hr className="group-hover/item:opacity-0 opacity-100 transition-all duration-500 border-white w-10" />
-            <a
-              href="#digital"
-              className="group-hover/item:-ml-[200px] group-hover/item:text-black text-white font-medium transition-all duration-500 ml-5"
-            >
-              View Our Work
-            </a>
-          </div>
-        </div>
       </div>
-      <div id="digital" className="flex flex-col gap-5 md:gap-20 my-40 md:px-5">
+      <div
+        id="digital"
+        className="max-w-7xl mx-auto flex flex-col gap-5 md:gap-20 my-40 md:px-5"
+      >
         {images.map((image, index) => {
           return (
             <div className="relative cursor-pointer group" key={index}>
@@ -117,7 +123,7 @@ const DigitalDevelopment = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

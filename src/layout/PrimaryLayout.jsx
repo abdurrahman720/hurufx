@@ -31,8 +31,8 @@ export const PrimaryLayout = () => {
       </Link>
 
       <div
-        className={`z-20 flex flex-col items-center fixed bottom-0 xs:bottom-10  right-0 opacity-0 transition-opacity duration-300 ease-in-out md:hidden xs:mb-8 ${
-          arrowClicked ? "opacity-100" : ""
+        className={`z-20  flex-col items-center fixed bottom-0 xs:bottom-10  right-0 opacity-0  transition-all duration-300 ease-in-out md:hidden xs:mb-8 ${
+          arrowClicked ? "opacity-100 flex" : "hidden"
         }  `}
       >
         <Social />
@@ -54,8 +54,8 @@ export const PrimaryLayout = () => {
       </div>
 
       <div
-        className={`z-20 flex flex-col items-center fixed bottom-0 xs:bottom-10 md:bottom-20 right-5 ${
-          arrowClicked ? "opacity-0" : "opacity-100"
+        className={`z-20  flex-col items-center fixed bottom-0 xs:bottom-10 md:bottom-20 right-5 ${
+          arrowClicked ? "opacity-0 hidden" : "opacity-100 flex"
         }`}
       >
         <ArrowUp
