@@ -20,7 +20,7 @@ const VideoSection = () => {
         className='relative md:w-1/2'
       >
         <iframe
-          className='h-[450px] w-full'
+          className='h-[300px] md:h-[450px] w-full'
           src='https://www.youtube.com/embed/46L9y2dkF7A?si=Wb-OySqnXukr95sx'
           title='YouTube video player'
           frameBorder={0}
