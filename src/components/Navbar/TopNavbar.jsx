@@ -100,7 +100,7 @@ function TopNavbar() {
                 >
                   TECH (TESS)
                 </NavItem>
-                <NavItem toggleDrawer={toggleDrawer} href='/' darken={true}>
+                <NavItem toggleDrawer={toggleDrawer} href='/#' darken={true}>
                   WEB 3.0 (SION)
                 </NavItem>
                 <NavItem toggleDrawer={toggleDrawer} href='/contact-us'>
