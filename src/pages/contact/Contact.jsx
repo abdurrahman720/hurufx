@@ -112,7 +112,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h3 className='text-xl font-semibold'>
-                  Engagement (e): ELAINE
+                  Engagement (e): ELAINE B.
                 </h3>
                 <div className='flex gap-1 items-center'>
                   <WhatsappLogo weight='fill' className='' />
